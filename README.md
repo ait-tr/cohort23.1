@@ -5,4 +5,4 @@ To see how the lesson will look like:
 
 You can view any lesson on the prod server with the following link 
 (don't forget to modify `lesson_example` with the required lesson) 
-https://ait-tr.github.io/lesson.html?&file=https://raw.githubusercontent.com/ait-tr/cohort23/main/basic_programming/lesson_example/metadata.json
+https://ait-tr.github.io/lesson.html?&file=https://raw.githubusercontent.com/ait-tr/cohort23.1/main/basic_programming/lesson_example/metadata.json

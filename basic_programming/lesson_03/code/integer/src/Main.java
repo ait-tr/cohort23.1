@@ -8,17 +8,17 @@ public class Main {
 
         String a = "Hi";
         String b = "Bye";
-      //  HiByeByeHi
+        //  HiByeByeHi
 
-     //   System.out.println(a+b+b+a);
+        //   System.out.println(a+b+b+a);
 
 
-    //    System.out.println("Hello world!");
+        //    System.out.println("Hello world!");
         int x = 424345;
-    //    x = Integer.MAX_VALUE+1;
-    //    System.out.println(x);
+        //    x = Integer.MAX_VALUE+1;
+        //    System.out.println(x);
         x = Integer.MIN_VALUE;
-    //    System.out.println(x);
+        //    System.out.println(x);
         System.out.println(x);
         byte bt =100;
         short sh = 20020;
@@ -75,7 +75,7 @@ public class Main {
         System.out.println("num1/num2: "+ (num1 / num2));
         System.out.println("num1%num2: "+ (num1 % num2));
 
-     //   double res = num1/num2;
+        //   double res = num1/num2;
         double res = (double)num1/num2;
         System.out.println("num1/num2= "+res);
         System.out.println(10/3);

@@ -1,8 +1,8 @@
 public class Main {
-// this is comments 1
+    // this is comments 1
 //    rte rtzuj
     /* sdbgsdhftzfgkhuli
-    * ydvdgfbgnhgmjh,j,*/
+     * ydvdgfbgnhgmjh,j,*/
     public static void main(String[] args) {
 
         int sumOfTwIntegers;
@@ -15,11 +15,11 @@ public class Main {
         int num1 = 2;
         b="Hello World";
         int c =2;
-       // a=a+1;
-       // c=a+c;
+        // a=a+1;
+        // c=a+c;
 
-    //    System.out.print("Hello world!");
-    //    System.out.println("Hello everyone!");
+        //    System.out.print("Hello world!");
+        //    System.out.println("Hello everyone!");
 
         String str = "Evgeny";
         String strInt = "123";
@@ -28,7 +28,7 @@ public class Main {
         String str3 = str +strInt;
         String str4 = str +" "+strInt;
 
-     //   System.out.println(str);
+        //   System.out.println(str);
         System.out.println("in str2 is "+str2);
         System.out.println("in str3 is "+ str3);
         System.out.println("in str4 is "+str4);
@@ -56,13 +56,13 @@ public class Main {
 
 
         String abc = "abc";
-     //   abc=23;
+        //   abc=23;
 
         int y = 10;
-      //  y="werzt";
-      //  int result;
+        //  y="werzt";
+        //  int result;
         String result;
-      //  result =10+10;
+        //  result =10+10;
 
         System.out.println(abc+y);
         System.out.println(y+y);
@@ -75,7 +75,7 @@ public class Main {
         int y1=z+2;
         y=z+2;
 
-         z=6;
+        z=6;
         System.out.println(z);
 
         z=z+1;
@@ -83,7 +83,7 @@ public class Main {
         y=z+2;
         System.out.println(y);
 
-    //посчитать сумму двух целых чисел, задав предварительно три переменные
+        //посчитать сумму двух целых чисел, задав предварительно три переменные
         // 1 число, 2 число, 3 число это результат
         // и вывести значение результата на экран
         /* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjj

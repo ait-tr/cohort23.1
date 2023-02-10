@@ -115,7 +115,7 @@ output:
         }
 
 
-            // DO-WHILE
+        // DO-WHILE
     /*
     do
     {
@@ -125,15 +125,15 @@ output:
      */
 
 
-            i = 1;
-            do {
-                System.out.println(i);
-                i--;
+        i = 1;
+        do {
+            System.out.println(i);
+            i--;
 
-            } while (i > 1);
+        } while (i > 1);
 
 
-            // Guess Number Game with Do-while loop
+        // Guess Number Game with Do-while loop
 
         Scanner scanner = new Scanner(System.in);
         int secretNumber = 5;
@@ -176,12 +176,12 @@ output:
         //1+2+3+4+5
         while (i1<=n){
             sum = sum + i1;// sum=0+1=1 // sum =1+2=3 // sum=3+3=6   // sum+=i1;
-        //    System.out.println("i1= "+i1);
-        //    System.out.println("sum="+sum);
+            //    System.out.println("i1= "+i1);
+            //    System.out.println("sum="+sum);
             i1++;//2 //3
 
-       //     sum+=i1++; в переменную sum записывается текущее значение sum и значение i1.
-                        // После чего значение i1  увеличивается на 1
+            //     sum+=i1++; в переменную sum записывается текущее значение sum и значение i1.
+            // После чего значение i1  увеличивается на 1
 
         }
         System.out.println("sum of digits from 1 to "+ n+ "  is "+sum);
@@ -208,7 +208,7 @@ output:
             }
             else
             {
-               oddSum +=number;
+                oddSum +=number;
             }
 
             System.out.println("Do you want to continue? enter 'y'or enter any other letter if not ");

@@ -5,10 +5,10 @@ public class Main {
 Написать программу, выводящую на экран или их сумму
 или если эти числа равны, то двойную сумму.
  */
-     //   int a = 2;
+        //   int a = 2;
         int a = 3;
         int b = 3;
-    //    a = 3;
+        //    a = 3;
 
         int sum = a + b;//6
 
@@ -31,7 +31,7 @@ public class Main {
 
         char ch1 = 'k';
         char ch2 = 'k';
-    //    if(ch1==ch2)
+        //    if(ch1==ch2)
 
         /* IF  Условный Оператор
         1-if statement
@@ -41,8 +41,8 @@ public class Main {
 
         example of nested if
         **/
-       // int num = 20;
-       // int num = 5;
+        // int num = 20;
+        // int num = 5;
         int num = 61;
 
         if(num <50){
@@ -124,23 +124,23 @@ public class Main {
         /* Ternary operator
       variable =  Condition ? Expression1 : Expression2
          */
-     //   int age = 10;
+        //   int age = 10;
         int age=19;
 
-  //    boolean isAdult =  age >=18 ? true : false;
-      String isAdult;
-      if (age>=18) {
-          isAdult="can vote";
-      }
-      else{
-          isAdult ="too young";
-      }
+        //    boolean isAdult =  age >=18 ? true : false;
+        String isAdult;
+        if (age>=18) {
+            isAdult="can vote";
+        }
+        else{
+            isAdult ="too young";
+        }
 
         System.out.println("isAdult1 for classical if else: "+isAdult);
 
 
 
-      String isAdultTernary = age>=18 ? "can vote":"too young";
+        String isAdultTernary = age>=18 ? "can vote":"too young";
         System.out.println("isAdultTernary: "+isAdultTernary);
 
     /*
@@ -153,11 +153,11 @@ public class Main {
     isAdultTernary: can vote
      */
 
-    String caseWord =  "uppercase";
+        String caseWord =  "uppercase";
 
-    String name =  caseWord.equals("uppercase")?"EVGENY":"evgeny";
+        String name =  caseWord.equals("uppercase")?"EVGENY":"evgeny";
 
-    //
+        //
 /*
         Даны два целых числа.
         Написать программу, выводящую на экран или их сумму
@@ -166,7 +166,7 @@ public class Main {
         int sum1 = a!=b? a+b : (a+b)*2;
 
         String str = null;
-     //   str.toUpperCase();
+        //   str.toUpperCase();
 
         String value = str !=null ? str.toLowerCase(): null;
         System.out.println(" value is "+value);
@@ -193,7 +193,7 @@ public class Main {
         //   10 -> "It is a two digit number
         //   368 ->  "It is a three digit number
         //  6785 -> "It is a four digit number
-       // если же кличество цифр числа больше 4 то вывести надпись "the number is too big for me"
+        // если же кличество цифр числа больше 4 то вывести надпись "the number is too big for me"
 
         int number = 2;
         //It is a one  digit number
@@ -258,8 +258,8 @@ public class Main {
         }
 
 
-        }
     }
+}
 
 
 

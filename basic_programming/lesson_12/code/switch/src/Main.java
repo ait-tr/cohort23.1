@@ -10,12 +10,12 @@ public class Main {
         int num = 2;
 
         if (num % 2 ==0){
-   //         System.out.println(num+ " is even number");
+            //         System.out.println(num+ " is even number");
         }else{
-    //        System.out.println((num+" is odd number"));
+            //        System.out.println((num+" is odd number"));
         }
 
-   //     String evenOrOdd = (num % 2 ==0)?"even number":"odd number";
+        //     String evenOrOdd = (num % 2 ==0)?"even number":"odd number";
 
         /*SWITCH
          switch(expression){
@@ -41,8 +41,8 @@ public class Main {
          */
         int i =0;
         //i is zero
-         i=2;
-         //i is two
+        i=2;
+        //i is two
         i=0;
         //i is more than 3
         switch (i){
@@ -67,16 +67,16 @@ public class Main {
         switch (i){
             case 0:
                 System.out.println("i is zero");
-            //    break;
+                //    break;
             case 1:
                 System.out.println("i is one");
-            //    break;
+                //    break;
             case 2:
                 System.out.println("i is two");
-            //    break;
+                //    break;
             case 3:
                 System.out.println("i is three");
-            //    break;
+                //    break;
 
             default:
                 System.out.println("i is more than 3");
@@ -97,7 +97,7 @@ public class Main {
         {
             case 'd':
                 System.out.println("Case d");
-            //    break;
+                //    break;
             case 'c':
                 System.out.println("Case c");
                 break;
@@ -166,7 +166,7 @@ public class Main {
         System.out.println("Enter an operator(+,-,/,*)");
         char operator =scanner.next().charAt(0);
 
-     //   sc.close();
+        //   sc.close();
 
         double result=0.0;
 
@@ -193,7 +193,7 @@ public class Main {
 
         }
         if(operator=='+'||operator=='-'||operator=='*'||operator=='/')
-        System.out.println(num1+" +operator+"+num2+" = "+result);
+            System.out.println(num1+" +operator+"+num2+" = "+result);
 
         //2.Написать программу, проверяющую является ли введенная с клавиатуры буква английского алфавита
         // гласной или  согласной . Написать как switch  и написать через if-else.

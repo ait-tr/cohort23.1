@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // задача1
-    //    printCubeOfNumbers(5);
+        //    printCubeOfNumbers(5);
 
         int n = 5;
-   //     System.out.println("cube of "+n+" is "+returnCubeOfNumber(n));
+        //     System.out.println("cube of "+n+" is "+returnCubeOfNumber(n));
 
         /*
         output
@@ -25,13 +25,13 @@ cube of 5 is 125
      */
         int j =1;
         while(j<=10){
-        //    System.out.println("The value of j is: "+j);
+            //    System.out.println("The value of j is: "+j);
             j++;
         }
 
 //Примеры использования for
         for (int i =1;i<=10;i++){
-       //     System.out.println("The value of i is: "+i);
+            //     System.out.println("The value of i is: "+i);
         }
 
         /*
@@ -48,7 +48,7 @@ The value of i is: 10
          */
 
         for (int i=10; i>0; i--){
-       //     System.out.println("The value of i is: "+i);
+            //     System.out.println("The value of i is: "+i);
         }
 /*
 The value of i is: 10
@@ -65,7 +65,7 @@ The value of i is: 1
  */
 
         for(int i=0,y=10; i<y; i++,y--){
-      //      System.out.println("i and y: "+i+" "+y);
+            //      System.out.println("i and y: "+i+" "+y);
         }
    /*
 i and y: 0 10
@@ -106,12 +106,12 @@ i and y: 4 6
         for ( m =0;m<3;m++);
 
 
-     //   for(;;){
+        //   for(;;){
 
-     //   }
+        //   }
 
         // написать метод возвращающий сумму от 1 до 5
-   //     System.out.println(sumOfFive());
+        //     System.out.println(sumOfFive());
 
         // цикл for считатющий сумму от 1 до 5 с пустым телом цикла
         int sum =0;
@@ -126,23 +126,23 @@ i and y: 4 6
         //sum = sum +2
         //sum += 2
 
-       // i++  ++i
+        // i++  ++i
 
         //Nested loop
 
-   //    nestedFor(3,5);
+        //    nestedFor(3,5);
 
-       //Написать метод, выводящий на экран треугольник из звездочек состоящий из 6 строк такого вида:
-       /*
+        //Написать метод, выводящий на экран треугольник из звездочек состоящий из 6 строк такого вида:
+        /*
 
-       *
-       * *
-       * * *
-       * * * *
-       * * * * *
-       * * * * * *
+         *
+         * *
+         * * *
+         * * * *
+         * * * * *
+         * * * * * *
 
-        */
+         */
         starTriangle(6);
 
 
@@ -160,7 +160,7 @@ i and y: 4 6
 
             i++;
         }
-   //     return;
+        //     return;
     }
 
     //дз2. Метод, принимающий число и возвращающий его куб
@@ -179,7 +179,7 @@ i and y: 4 6
     public static int sumOfFive(){
         int sum =0;
         for (int i = 1;i<=5;i++){
-          sum = sum+i;
+            sum = sum+i;
         }
         return sum;
     }
@@ -199,9 +199,9 @@ i and y: 4 6
     // j 1,2,3,4
 
     //i=2
-   // j 1,2,3,4
+    // j 1,2,3,4
 
-   //i=3
+    //i=3
     // j 1,2,3,4
 
     //Написать метод, выводящий на экран треугольник из звездочек

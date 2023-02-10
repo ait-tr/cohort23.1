@@ -12,15 +12,15 @@ public class Main {
         System.out.println(result);
 
         // length
-    //    int length =str1.length();
+        //    int length =str1.length();
 
         //charAt
         str1 = "Hello";
-    //    H -0
-    //    e -1
-    //    l -2
-    //    l -3
-    //    0 -4
+        //    H -0
+        //    e -1
+        //    l -2
+        //    l -3
+        //    0 -4
 
         int length = str1.length();
 
@@ -50,7 +50,7 @@ public class Main {
         //t - форматирует дату время
 
         //форматирование строк с помощью %s
-      //  System.out.printf("hello%nworld");
+        //  System.out.printf("hello%nworld");
 
         System.out.printf("'%s'%n","Hello");
         System.out.printf("'%S'%n","Hello");
@@ -69,11 +69,11 @@ public class Main {
 'Hello     '
          */
 
-     //   System.out.printf("%-15.2s","Hello");
+        //   System.out.printf("%-15.2s","Hello");
         // output He
 
         // %[flags][width][.precision]conversuion-characters
-     //   System.out.printf("%-15.3s","Hello");
+        //   System.out.printf("%-15.3s","Hello");
         //output   Hel
 
 
@@ -132,10 +132,10 @@ public class Main {
         //method equals()
 
         String name = "Evgeny";
-    //    String b = "asdf";
+        //    String b = "asdf";
         String name1 = new String("Evgeny");
 
-     boolean equals= name.equals(name1);
+        boolean equals= name.equals(name1);
 
         System.out.println("comparison with equals: "+equals);
         System.out.println("comparison with ==: "+(name==name1));
@@ -157,7 +157,7 @@ public class Main {
          */
 
 
-       // a==b;
+        // a==b;
 
         //toUpperCase() method
 
@@ -199,7 +199,7 @@ public class Main {
         //method valueOf()
 
         int number = 99;
-     //  int test= String.valueOf(number);
+        //  int test= String.valueOf(number);
         String test = String.valueOf(number);
 
 

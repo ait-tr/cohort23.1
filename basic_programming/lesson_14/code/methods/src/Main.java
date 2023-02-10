@@ -30,7 +30,7 @@ number is: 2 and cube of 2is: 8
 number is: 3 and cube of 3is: 27
 
          */
-  //Задача2
+        //Задача2
         //С помощью цикла while написать программу, выводящую на экран результат умножения
         // данного цисла n на все целые числа от 0 до n
         //Пример: для числа 3 результат будет 0, 3, 6, 9
@@ -81,12 +81,12 @@ number is: 3 and cube of 3is: 27
         //
         // }
 
- //   printSmth();
- //   printSmth();
+        //   printSmth();
+        //   printSmth();
 
 
-  //  sum();
-    int receiveReturn =  sumReturn()+1;
+        //  sum();
+        int receiveReturn =  sumReturn()+1;
 
         System.out.println("receiveReturn is "+receiveReturn);
 
@@ -105,11 +105,11 @@ number is: 3 and cube of 3is: 27
 
 
     public static void printSmth(){
-     //   sum();
+        //   sum();
         System.out.println("I am printing");
     }
     public static void sum() {
-    //    printSmth();
+        //    printSmth();
         int a = 1;
         int b = 2;
         int aPlusB = a+b;
@@ -118,7 +118,7 @@ number is: 3 and cube of 3is: 27
         }
 
         System.out.println("a+b = "+aPlusB);
-       // return;
+        // return;
     }
 
     //точка выхода из метода и возврат результатов работы метода в основную программу с помощью return
@@ -129,14 +129,14 @@ number is: 3 and cube of 3is: 27
         int aPlusB = a+b;
 
         return aPlusB;
-      //  return "ab";
+        //  return "ab";
     }
 
     // передача в метод параметров
     public static int sumReturnWithParameters(int a, int b){
         int aPlusB = a+b;
 
-      //  return aPlusB;
+        //  return aPlusB;
         return a+b;
     }
 

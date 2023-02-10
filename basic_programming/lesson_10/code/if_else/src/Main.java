@@ -109,7 +109,7 @@ public class Main {
 
         if(ch == answer) {
             System.out.println("You are right!!!");*/
-  //  }
+        //  }
 
         /*
         Guess a letter between A and Z
@@ -129,12 +129,12 @@ public class Main {
         num = 100;
 
         if(num<100)
-    {
-        System.out.println("num is less than 100");
-    } else
-    {
-        System.out.println("num is greater than or equal 100");
-    }
+        {
+            System.out.println("num is less than 100");
+        } else
+        {
+            System.out.println("num is greater than or equal 100");
+        }
         /* output:
          num is greater than or equal 100*/
 
@@ -231,6 +231,6 @@ public class Main {
         /* output:
         *Sorry, you are you entered a letter after the secret letter
         Game is over*/
-}
-
     }
+
+}

@@ -7,7 +7,7 @@ public class Main {
         System.out.println(25.0/3);
         System.out.println(25%3);
         System.out.println(erg);
-     //   double double
+        //   double double
 
         int num = 8;
         System.out.println(num*num);
@@ -23,7 +23,7 @@ public class Main {
         hundreds =365/10/10=3
 
          */
-   //     System.out.println(365%10);
+        //     System.out.println(365%10);
         int n = 365;
 
         int ones,tens,hundreds;
@@ -50,21 +50,21 @@ public class Main {
         System.out.println(tens1+fives1+ones1);
         int y;
         int x=10;
-    //    x++;
-     //   ++x;
-      //  y=++x;
-      //    y=x++;
-      //    y=x--;
+        //    x++;
+        //   ++x;
+        //  y=++x;
+        //    y=x++;
+        //    y=x--;
         //  y=--x;
-          y=x--;
+        y=x--;
         System.out.println("y="+y);
         System.out.println("x="+x);
-    //    x = x+1;
-    //    x=x-1;
-   //     x++;
-    //    x--;
-    //    ++x;
-    //    --x;
+        //    x = x+1;
+        //    x=x-1;
+        //     x++;
+        //    x--;
+        //    ++x;
+        //    --x;
 
         //Type boolean
         /*
@@ -138,7 +138,7 @@ public class Main {
         int b22 = 2;
         if(a1>b22)
             System.out.println("a1>b22");
-     //   System.out.println(2/0);
+        //   System.out.println(2/0);
 
         int num12 = 10;
         int d = 2;

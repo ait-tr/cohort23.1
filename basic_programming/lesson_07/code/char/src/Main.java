@@ -22,8 +22,8 @@ public class Main {
         System.out.println(z);
         System.out.print("this is a line\n\n");
         System.out.print("this is another line\n");
-     //   System.out.print("this is \nanother line");
-    //    System.out.print("this\tis\tanother\tline");
+        //   System.out.print("this is \nanother line");
+        //    System.out.print("this\tis\tanother\tline");
 
         /*
         Вывод специальных символов

@@ -4,12 +4,12 @@ public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println("args now "+ Arrays.toString(args));
+        System.out.println("args now " + Arrays.toString(args));
 
         String number = "10";
-        int num= Integer.parseInt(number);
-        System.out.println("String "+(number+1));
-        System.out.println("number " +(num+1));
+        int num = Integer.parseInt(number);
+        System.out.println("String " + (number + 1));
+        System.out.println("number " + (num + 1));
 
 
         System.out.println("Average finder v0.1");
@@ -17,8 +17,8 @@ public class Main {
         System.out.println("The average is " + avg);
 
 
-        String[] cars =  {"Audi","BMW","Ford","Honda","Hyundai","Kia","Mazda"};
-        findCar(cars,"bmw");
+        String[] cars = {"Audi", "BMW", "Ford", "Honda", "Hyundai", "Kia", "Mazda"};
+        findCar(cars, "bmw");
 
     }
 
@@ -28,7 +28,7 @@ public class Main {
         for (String s : input) {
             result += Integer.parseInt(s);
         }
-        return result/input.length;
+        return result / input.length;
     }
 
     // Написать метод, который проверяет есть ли заказаная машина в салоне.
@@ -47,12 +47,12 @@ public class Main {
     // Arrays.toString(cars)
     //string.equals(string2)
 //{"Audi","BMW","Ford","Honda","Hyundai","Kia","Mazda"}
-    public static  void findCar(String[]cars,String carToFind){
+    public static void findCar(String[] cars, String carToFind) {
         int length = cars.length;
 
-        for(int i=0;i<length;i++){
+        for (int i = 0; i < length; i++) {
 
-            if(cars[i].equalsIgnoreCase(carToFind)) {
+            if (cars[i].equalsIgnoreCase(carToFind)) {
                 System.out.println("this car is available");
                 return;
             }
@@ -60,8 +60,8 @@ public class Main {
         }
         System.out.println("this car is not available. Take ");
 
-        for(String car: cars)
-            System.out.print(car+" ");
+        for (String car : cars)
+            System.out.print(car + " ");
 
 
     }

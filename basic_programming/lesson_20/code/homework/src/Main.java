@@ -19,16 +19,15 @@ public class Main {
         // reverseAndPrintArray(arrToReverse());
         reverseAndPrintArray(ints);
 
-        System.out.println( method1(2,"Hello",ints,4));
+        System.out.println(method1(2, "Hello", ints, 4));
 
-        int[][]ints2={
-                {1,2,3},
-                {4,5,6},
-                {7,8,9}
+        int[][] ints2 = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
         };
-        System.out.println(findSumOfSubArray(ints2,1));
+        System.out.println(findSumOfSubArray(ints2, 1));
     }
-
 
 
 //}
@@ -38,43 +37,42 @@ public class Main {
 public static int[] arrToReverse()
  */
 
-    public static int[] arrToReverse(){
+    public static int[] arrToReverse() {
         //1. в пееременной a будет храниться значение длины маасива. Мы получаем его с помощью подсчета
         // встречающихся в цикле от 1 до 99 нечетных чисел
         int a = 0;
-        for(int i = 1;i<=99;i++){
-            if (i%2 != 0){
+        for (int i = 1; i <= 99; i++) {
+            if (i % 2 != 0) {
                 a++;
             }
         }
         //2 записанное теперь в а количество всех нечетных чисел можно использовать в качестве длины
         // нового массива который будет содержать эти числа. т.е arr.length = a ;
-        System.out.println("length of odd numbers array is "+a);
+        System.out.println("length of odd numbers array is " + a);
 
         //3. Создаем этот массив и с помощью цикла заполняем его ячейки нечетными числами.
-        int[]arr = new int[a];
+        int[] arr = new int[a];
 
-        for(int i=1,j=0;i<=99;i++){
+        for (int i = 1, j = 0; i <= 99; i++) {
 
-            if (i%2 !=0){
-                arr[j]=i;
-                System.out.print(arr[j]+" ");
+            if (i % 2 != 0) {
+                arr[j] = i;
+                System.out.print(arr[j] + " ");
                 j++;
             }
         }
         return arr;
     }
 
-    public static void reverseAndPrintArray(int[]ints){
+    public static void reverseAndPrintArray(int[] ints) {
         System.out.println();
-        for(int i =ints.length-1;i>=0;i--){
-            System.out.print(ints[i]+" ");
+        for (int i = ints.length - 1; i >= 0; i--) {
+            System.out.print(ints[i] + " ");
         }
 
     }
 
-    public static int method1(int x,String str,int[]ints,int y)
-    {
+    public static int method1(int x, String str, int[] ints, int y) {
 
         return 10;
     }
@@ -90,12 +88,12 @@ public static int[] arrToReverse()
           };
 
       */
-    public static int findSumOfSubArray(int[][] ints, int n){
+    public static int findSumOfSubArray(int[][] ints, int n) {
 
-        int sum=0;
+        int sum = 0;
 
-        for(int i=0;i<ints[n].length;i++){
-            sum +=ints[n][i];
+        for (int i = 0; i < ints[n].length; i++) {
+            sum += ints[n][i];
         }
         return sum;
     }

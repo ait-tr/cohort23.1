@@ -2,16 +2,16 @@ import java.io.IOException;
 import java.util.Random;
 
 public class Main {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         Random random = new Random();
 
-        int x =  random.nextInt(30);
-        int y =  random.nextInt(100);
+        int x = random.nextInt(30);
+        int y = random.nextInt(100);
 
         //     System.out.println("random 30 "+x);
         //     System.out.println("random 100 "+y);
 
-        String[]cars = {"Audi", "BMW", "Ford", "Honda", "Hyundai", "Kia", "Mazda"};
+        String[] cars = {"Audi", "BMW", "Ford", "Honda", "Hyundai", "Kia", "Mazda"};
         //     findCar(cars,"opel");
 
 
@@ -26,7 +26,7 @@ public class Main {
         try {
             int res = num1 / num2;
             //       System.out.println(res);
-        }catch(ArithmeticException exception){
+        } catch (ArithmeticException exception) {
             //        System.out.println("Do not divide by zero");
             //       System.out.println(exception.getMessage());
         }
@@ -72,15 +72,12 @@ public class Main {
             //      number2 = 100 / number1;
             //      System.out.println(number2);
             //      System.out.println("This is the end of try block");
-        }
-        catch (ArithmeticException exception){
+        } catch (ArithmeticException exception) {
         /*
         этот блок выполняется только в случае арифметической ошибки
          */
             System.out.println("Do not divide a number by zero");
-        }
-
-        catch (Exception exception){
+        } catch (Exception exception) {
         /*
         это общий обработчик ошибок,т.е. он может обрабатывать все ошибки.
         Он выполнится если ошибка не обработана ни одним из предшествующих catch блоков
@@ -101,15 +98,11 @@ public class Main {
             int[] arr = new int[10];
             //    arr[4] = 100 / 0;
             arr[40] = 100 / 0;
-        }
-        catch (ArrayIndexOutOfBoundsException exception){
+        } catch (ArrayIndexOutOfBoundsException exception) {
             System.out.println("ArrayIndexOutOfBoundsException");
-        }
-        catch (ArithmeticException exception){
+        } catch (ArithmeticException exception) {
             System.out.println("Arithmetic exception");
-        }
-
-        catch (Exception exception){
+        } catch (Exception exception) {
             System.out.println("Some other exception");
         }
         System.out.println("out of try-catch");
@@ -128,12 +121,9 @@ public class Main {
         try {
             int num3 = 100 / 0;
             System.out.println(num3);
-        }
-        catch (ArithmeticException exception){
+        } catch (ArithmeticException exception) {
             System.out.println("do not divide by 0");
-        }
-
-        finally {
+        } finally {
             System.out.println("I am finally block. I always execute");
         }
         System.out.println("out of try-catch-finally");
@@ -149,11 +139,9 @@ public class Main {
             //  int num = 100 / 3;
             //       int num = 100 / 0;
             //       System.out.println(num);
-        }
-        catch (ArrayIndexOutOfBoundsException exception){
+        } catch (ArrayIndexOutOfBoundsException exception) {
             System.out.println("ArrayIndexOutOfBoundsException");
-        }
-        finally {
+        } finally {
             //        System.out.println("finally block");
         }
 
@@ -164,7 +152,7 @@ public class Main {
 
         try {
             throwsMethod(4);
-        }catch (Exception exception){
+        } catch (Exception exception) {
             System.out.println(exception);
         }
 
@@ -190,50 +178,42 @@ public class Main {
     5. Finally  выполняется даже тогда, когда в try  присутствуют команды типа return, break, continue
      */
 
-    public static int method(){
-        try{
+    public static int method() {
+        try {
             return 0;
-        }
-        finally {
+        } finally {
             System.out.println("I run even after return statement");
         }
     }
 
 
-
     //check age with exception
-    public static void checkAgeAndWeight(int age, int weight){
-        if(age<6 && weight<30){
+    public static void checkAgeAndWeight(int age, int weight) {
+        if (age < 6 && weight < 30) {
             throw new ArithmeticException("you are not eligible for our school");
-        }
-        else{
+        } else {
             System.out.println("You are admitted");
         }
     }
 
 
-    public static void throwsMethod(int n )throws IOException,ClassNotFoundException{
-        if(n==1){
+    public static void throwsMethod(int n) throws IOException, ClassNotFoundException {
+        if (n == 1) {
             throw new IOException("IOException occured");
-        }else {
+        } else {
             throw new ClassNotFoundException("Class does not exist");
         }
 
     }
 
 
-
-
-
-
-
-    public static  void findCar(String[]cars,String carToFind){
+    public static void findCar(String[] cars, String carToFind) {
         Random random = new Random();
         int length = cars.length;
 
-        for(int i=0;i<length;i++){
+        for (int i = 0; i < length; i++) {
 
-            if(cars[i].equalsIgnoreCase(carToFind)) {
+            if (cars[i].equalsIgnoreCase(carToFind)) {
                 System.out.println("this car is available");
                 return;
             }
@@ -241,7 +221,7 @@ public class Main {
 
         }
         int index = random.nextInt(cars.length);
-        System.out.println("this car is not available. Take "+cars[index]);
+        System.out.println("this car is not available. Take " + cars[index]);
 
 
         //    for(String car: cars)

@@ -16,14 +16,14 @@ true
     //Hello -> false
     //World -> true
 
-    public static boolean isUnique (String word){
+    public static boolean isUnique(String word) {
         HashSet<Character> testSet = new HashSet<>();
 
-        for(int i = 0; i<word.length();i++){
+        for (int i = 0; i < word.length(); i++) {
 
             char c = word.charAt(i);
 
-            if(!testSet.add(c)){
+            if (!testSet.add(c)) {
                 return false;
             }
         }

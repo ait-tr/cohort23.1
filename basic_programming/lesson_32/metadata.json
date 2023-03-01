@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/buffered_reader_writer/src/Main.java",
+   "code/file_name/src/Main.java",
+   "code/our_enum/src/Main.java",
+   "code/our_enum/src/Directions.java",
+   "code/our_enum/src/Transport.java"
+  ],
+  "video": ""
+}

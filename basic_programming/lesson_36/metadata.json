@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/oop_continue/src/Main.java",
+   "code/oop_continue/src/Person.java",
+   "code/oop_getters_setters/src/Employee.java",
+   "code/oop_getters_setters/src/Main.java",
+   "code/oop_getters_setters/src/Person.java",
+   "code/static_key_word/src/Car.java",
+   "code/static_key_word/src/Main.java",
+   "code/students/src/Student.java"
+
+
+  ],
+  "video": ""
+}

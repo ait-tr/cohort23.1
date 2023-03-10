@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/bookpack/src/Book.java",
+   "code/bookpack/src/BookDemo.java",
+   "code/java_packages/src/BookDemo1.java",
+   "code/java_packages/src/Main.java",
+   "code/our_safe_array1/src/ArrayDemo.java",
+   "code/our_safe_array1/src/SafeArray.java",
+   "code/practice_38/src/Main.java",
+   "code/practice_38/src/Rectangle.java",
+   "code/static_example/src/Student.java",
+   "code/static_example/src/StudentDemo.java"
+
+
+
+
+  ],
+  "video": ""
+}

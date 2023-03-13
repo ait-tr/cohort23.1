@@ -1,0 +1,30 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/abc1package/src/Demo.java",
+   "code/abcpackage/src/Addition.java",
+   "code/constructors/src/ChildClass.java",
+   "code/constructors/src/Demo.java",
+   "code/constructors/src/ParentClass.java",
+   "code/homework_39/src/Employee.java",
+   "code/homework_39/src/Main.java",
+   "code/homework_39/src/MaxInArray.java",
+   "code/inheritance/src/Boy.java",
+   "code/inheritance/src/Main.java",
+   "code/inheritance/src/Person.java",
+   "code/teacher/src/FrontEndTeacher.java",
+   "code/teacher/src/JavaTeacher.java",
+   "code/teacher/src/Main.java",
+   "code/teacher/src/Teacher.java",
+   "code/teacher1/src/Teacher.java",
+   "code/teacher1/src/TestTeacher.java"
+
+
+
+
+
+  ],
+  "video": ""
+}

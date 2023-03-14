@@ -1,0 +1,26 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/animals/src/Animal.java",
+   "code/animals/src/Lion.java",
+   "code/animals/src/WildDog.java",
+   "code/animals/src/Zoo.java",
+   "code/has_a_relationship/src/Address.java",
+   "code/has_a_relationship/src/Main.java",
+   "code/has_a_relationship/src/Student.java",
+   "code/homework_40/src/Car.java",
+   "code/homework_40/src/Main.java",
+   "code/homework_40/src/PassengerCar.java",
+   "code/homework_40/src/Truck.java",
+   "code/main_40/src/Main.java",
+   "code/polymorphism/src/Main.java",
+   "code/polymorphism/src/MethodOverLoadingExample.java",
+   "code/polymorphism/src/MethodOverLoadingExample.java",
+   "code/toString_method/src/Main.java",
+   "code/toString_method/src/Student.java"
+
+  ],
+  "video": ""
+}

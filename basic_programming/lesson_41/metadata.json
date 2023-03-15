@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/equals_hashcode/src/Main.java",
+   "code/equals_hashcode/src/Order.java",
+   "code/homework_shapes/src/Circle.java",
+   "code/homework_shapes/src/Main.java",
+   "code/homework_shapes/src/Rectangle.java",
+   "code/homework_shapes/src/Shape.java",
+   "code/homework_shapes/src/Square.java",
+   "code/super_keyword/src/Main.java",
+   "code/super_keyword/src/Subclass.java",
+   "code/super_keyword/src/Superclass.java"
+
+
+  ],
+  "video": ""
+}

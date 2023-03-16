@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/abstract_classes/src/A.java",
+   "code/abstract_classes/src/Animal.java",
+   "code/abstract_classes/src/B.java",
+   "code/abstract_classes/src/Dog.java",
+   "code/abstract_classes/src/Giraffe.java",
+   "code/abstract_classes/src/Lion.java",
+   "code/abstract_classes/src/Zoo.java",
+   "code/homework_42/src/Main.java",
+   "code/homework_42/src/MyDate.java",
+   "code/pizza_factory/src/Main.java"
+
+
+
+
+  ],
+  "video": ""
+}

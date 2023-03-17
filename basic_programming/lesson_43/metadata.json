@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/growing_plants/src/Garden.java",
+   "code/pizza_factory/src/Main.java",
+   "code/pizza_factory/src/Pizza.java",
+   "code/pizza_factory/src/PizzaFactory.java",
+   "code/pizza_factory/src/PizzaHawaii.java",
+   "code/pizza_factory/src/PizzaMozarella.java",
+   "code/pizza_factory/src/PizzaSalami.java",
+   "code/pizza_factory/src/PizzaType.java"
+
+
+
+
+
+  ],
+  "video": ""
+}

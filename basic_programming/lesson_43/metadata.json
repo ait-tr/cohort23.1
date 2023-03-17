@@ -4,13 +4,13 @@
   "homework": "homework.md",
   "code": [
    "code/growing_plants/src/Garden.java",
-   "code/pizza_factory/src/Main.java",
-   "code/pizza_factory/src/Pizza.java",
-   "code/pizza_factory/src/PizzaFactory.java",
-   "code/pizza_factory/src/PizzaHawaii.java",
-   "code/pizza_factory/src/PizzaMozarella.java",
-   "code/pizza_factory/src/PizzaSalami.java",
-   "code/pizza_factory/src/PizzaType.java"
+   "code/pizza_factory_new/src/Main.java",
+   "code/pizza_factory_new/src/Pizza.java",
+   "code/pizza_factory_new/src/PizzaFactory.java",
+   "code/pizza_factory_new/src/PizzaHawaii.java",
+   "code/pizza_factory_new/src/PizzaMozarella.java",
+   "code/pizza_factory_new/src/PizzaSalami.java",
+   "code/pizza_factory_new/src/PizzaType.java"
 
 
 

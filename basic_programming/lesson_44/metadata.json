@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/growing_plants_new/src/Flower.java",
+   "code/growing_plants_new/src/Garden.java",
+   "code/growing_plants_new/src/Plant.java",
+   "code/growing_plants_new/src/Tree.java",
+   "code/our_interfaces/src/Animal.java",
+   "code/our_interfaces/src/Cat.java",
+   "code/our_interfaces/src/Dog.java",
+   "code/our_interfaces/src/Main.java",
+   "code/our_interfaces/src/Runnable.java",
+   "code/series/src/Main.java",
+   "code/series/src/OurConstants.java",
+   "code/series/src/Series.java",
+   "code/series/src/Threes.java",
+   "code/series/src/Twos.java"
+  ],
+  "video": ""
+}

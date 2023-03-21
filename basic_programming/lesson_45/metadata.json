@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/homework_45/src/Circle.java",
+   "code/homework_45/src/Main.java",
+   "code/homework_45/src/Rectangler.java",
+   "code/homework_45/src/Shape.java",
+   "code/interface_comparable/src/Main.java",
+   "code/interface_comparable/src/Player.java",
+   "code/our_interfaces_new/src/A.java",
+   "code/our_interfaces_new/src/B.java",
+   "code/our_interfaces_new/src/Main.java",
+   "code/our_interfaces_new/src/MyClass.java",
+   "code/our_interfaces_new/src/MyClassImplementInterface.java",
+   "code/our_interfaces_new/src/MyConstantsClass.java",
+   "code/our_interfaces_new/src/MyInterface.java",
+   "code/our_interfaces_new/src/OurConstants.java"
+
+  ],
+  "video": ""
+}

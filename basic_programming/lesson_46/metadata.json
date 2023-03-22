@@ -1,0 +1,24 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/animals_comp/src/Animal.java",
+   "code/animals_comp/src/AnimalMain.java",
+   "code/animals_comp/src/ComparatorByLastLetter.java",
+   "code/animals_comp/src/ComparatorByName.java",
+   "code/animals_comp/src/ComparatorByWeight.java",
+   "code/books/src/Author.java",
+   "code/books/src/BookNameComparator.java",
+   "code/books/src/Main.java",
+   "code/books/src/PublishingYearComparator.java",
+   "code/homework_shapes_comp/src/Circle.java",
+   "code/homework_shapes_comp/src/Main.java",
+   "code/homework_shapes_comp/src/Rectangle.java",
+   "code/homework_shapes_comp/src/Shape.java",
+   "code/homework_shapes_comp/src/Square.java",
+   "code/our_comparator/src/Main.java"
+
+  ],
+  "video": ""
+}

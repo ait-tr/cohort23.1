@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/homework_employee/src/AgeAndNameComparator.java",
+   "code/homework_employee/src/AgeComparator.java",
+   "code/homework_employee/src/Employee.java",
+   "code/homework_employee/src/EmployeeTest.java",
+   "code/homework_employee/src/Main.java",
+   "code/homework_employee/src/NameComparator.java",
+   "code/homework_employee/src/SalaryComparator.java",
+   "code/unit_testing/src/Calculator.java",
+   "code/unit_testing/src/CalculatorTest.java",
+   "code/unit_testing/src/Circle.java",
+   "code/unit_testing/src/CircleTest.java",
+   "code/unit_testing/src/Main.java",
+   "code/unit_testing/src/SampleTestClass.java"
+
+  ],
+  "video": ""
+}

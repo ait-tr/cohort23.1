@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/homework_shapes_test/src/Circle.java",
+   "code/homework_shapes_test/src/Main.java",
+   "code/homework_shapes_test/src/Rectangle.java",
+   "code/homework_shapes_test/src/Shape.java",
+   "code/homework_shapes_test/src/ShapeCalculator.java",
+   "code/homework_shapes_test/src/ShapeCalculatorTest.java",
+   "code/homework_shapes_test/src/Square.java",
+   "code/list_tasks_tests/src/ListTasks.java",
+   "code/list_tasks_tests/src/ListTasksTest.java",
+   "code/list_tasks_tests/src/Main.java"
+
+  ],
+  "video": ""
+}

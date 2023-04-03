@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/custom_exceptions/src/InvalidAgeException.java",
+    "code/custom_exceptions/src/Voter.java",
+    "code/homework23_1/src/EmptyListException.java",
+    "code/homework23_1/src/Main.java",
+    "code/homework23_1/src/MainTest.java",
+    "code/homework23_2/src/Main.java"
+
+
+  ],
+  "video": ""
+}

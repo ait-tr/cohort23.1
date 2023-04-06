@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/fibonacci/src/Fibonacci.java",
+    "code/flowcharts/src/Main.java"
+
+  ],
+  "video": ""
+}

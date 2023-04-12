@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/bubblesort/src/Main.java",
+    "code/homework56/src/Main.java",
+    "code/homework56/src/Person.java",
+    "code/stringbuilders/src/Main.java"
+
+  ],
+  "video": ""
+}

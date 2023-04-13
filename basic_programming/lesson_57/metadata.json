@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework57/src/Main.java",
+    "code/homework_new57/src/Checkable.java",
+    "code/homework_new57/src/Main.java",
+    "code/homework_new57/src/Printable.java",
+    "code/homework_new57/src/StringConcate.java",
+    "code/lambdas/src/Calculate.java",
+    "code/lambdas/src/Main.java",
+    "code/lambdas/src/MyValue.java",
+    "code/lambdas/src/MyValueParam.java",
+    "code/lambdas/src/StringTest.java",
+    "code/lambdas/src/TestNumbers.java",
+    "code/stringbuilder_demo/src/Demo.java"
+
+
+  ],
+  "video": ""
+}

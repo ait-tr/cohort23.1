@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/main58/src/Checkable.java",
+    "code/main58/src/Main.java",
+    "code/main58/src/Person.java",
+    "code/main58/src/PersonCreator.java",
+    "code/main58/src/SomeTest.java",
+    "code/main58/src/TestMethodReference.java",
+    "code/our_functional_interfaces/src/Checkable.java",
+    "code/our_functional_interfaces/src/Main.java",
+    "code/our_functional_interfaces/src/Printable.java",
+    "code/our_functional_interfaces/src/Producable.java",
+    "code/our_functional_interfaces/src/StringConcate.java",
+    "code/our_functional_interfaces/src/Transformable.java",
+    "code/predefined_functional_interfaces/src/Main.java"
+
+  ],
+  "video": ""
+}

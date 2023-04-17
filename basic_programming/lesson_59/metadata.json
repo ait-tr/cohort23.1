@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework59/src/Transformer.java",
+    "code/homework59/src/TransformerTest.java",
+    "code/our functional_interfaces/src/Checkable.java",
+    "code/our functional_interfaces/src/Main.java",
+    "code/our functional_interfaces/src/Printable.java",
+    "code/our functional_interfaces/src/Producable.java",
+    "code/our functional_interfaces/src/StringConcate.java",
+    "code/our functional_interfaces/src/Transformable.java",
+    "code/predefined functional_interfaces/src/Main.java",
+    "code/streams/src/Main.java",
+    "code/streams/src/OurStreams.java"
+
+  ],
+  "video": ""
+}

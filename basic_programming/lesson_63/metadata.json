@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/crouch/src/Main.java",
+    "code/crouch/src/Score.java",
+    "code/crouch/src/Tarakan.java",
+    "code/main63/src/CharThread.java",
+    "code/main63/src/Main.java",
+    "code/method_sync/src/CounterMethod.java",
+    "code/method_sync/src/CounterThreadMethod.java",
+    "code/method_sync/src/Main.java",
+    "code/our_sync/src/Counter.java",
+    "code/our_sync/src/CountThread.java",
+    "code/our_sync/src/Main.java",
+    "code/wait_notify/src/Main.java"
+
+     ],
+  "video": ""
+}
